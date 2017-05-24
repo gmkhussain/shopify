@@ -4,3 +4,14 @@
 2. Click on [...]
 3. Edit HTML/CSS
 
+
+
+## How to Edit Shopify home page
+Use index.liquid
+
+{{ content_for_index }} [1]
+
+{% section 'your-section-area' %} *[2]
+
+[1] Customize theme for default sections
+[2] create section under the "Setions" folder
