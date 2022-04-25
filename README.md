@@ -1,3 +1,76 @@
+# Install Shopif CLI
+
+- Ruby or (Ruby+Devkit using RubyInstaller)[https://rubyinstaller.org/downloads/] for Windows 2.7 or higher
+- Open ```CMD```
+- Run ```gem install shopify-cli```
+- Once done check shopify CLI installed ```shopify version```
+
+
+
+
+## Deploy Theme on local
+
+- ```shopify login --store johns-apparel.myshopify.com```
+- ```shopify theme init```
+```js
+? Theme name
+> DawnBFCM ( OR MyThemeName )
+```
+
+- Test Data ```shopify populate products```
+- Preview Theme ```shopify theme serve```
+
+
+### Test Code with Lint
+- ```shopify theme check```
+
+
+### Push local to live
+- ```shopify theme push```
+
+
+
+### Publish
+- ```shopify theme publish```
+
+
+
+### Find your theme ID
+- ```shopify theme list```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## How to customize shopify theme
 
 1. Goto https://myshopname.myshopify.com/admin/themes
